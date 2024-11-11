@@ -1,0 +1,66 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: CCMaladroit;
+    src: url(/assets/font/CCMaladroit\ W00\ Bold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+    color: #000;
+
+}
+
+p {
+    font-size: 1.5vw;}
+
+
+.header {
+    background-image: url(../images/header.png);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vw;
+    padding: 3vw;
+    width: 100%;
+    position: relative;
+}
+
+
+a img {
+    transition: all 0.3s ease-in-out;
+}
+
+a img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px) {
+
+    p {
+        font-size: 2.3vw;
+    }
+
+    .header {
+    background-image: url(../images/mobile.png);
+        height: 350vw;
+        padding: 3vw 5vw;
+        width: 100%;
+    }
+}

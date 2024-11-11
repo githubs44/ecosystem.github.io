@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--wow-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- icons  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+    <title>Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!------------------ header  ------------------>
+    <div class="header">
+      <!------------------ navbar  ------------------>
+      <nav>
+        <div class="flex items-center justify-between">
+          <img
+            src="assets/images/logo.png"
+            alt=""
+            class="md:w-[5vw] w-[13vw] wow animate__animated animate__backInDown"
+          />
+          <a
+            href="#"
+            class="block md:static absolute top-[27vw] right-[4vw]"
+          >
+            <img
+              src="assets/images/dextool.png"
+              alt=""
+              class="md:w-[13vw] w-[30vw] wow animate__animated animate__backInRight"
+            />
+          </a>
+          <div class=" flex items-center gap-[2vw]">
+            <a href="#">
+              <img
+                src="assets/images/x.png"
+                alt=""
+                class="md:w-[5vw] w-[8vw] wow animate__animated animate__bounceIn"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="assets/images/t.png"
+                alt=""
+                class="md:w-[5vw] w-[8vw] wow animate__animated animate__bounceIn"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+       <div
+        class="flex items-center md:gap-[2vw] gap-[5vw] absolute md:top-[43vw] top-[285vw] md:left-[17vw] left-[8vw]"
+      >
+        <a href="#">
+          <img
+            src="assets/images/buy.png"
+            alt=""
+            class="md:w-[15vw] w-[40vw] wow animate__animated animate__backInLeft"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="assets/images/chart.png"
+            alt=""
+            class="md:w-[15vw] w-[30vw] wow animate__animated animate__backInRight"
+          />
+        </a>
+      </div>
+      <div
+        class="md:flex hidden items-center flex-col gap-[2vw] absolute bottom-[5vw] left-[2vw]"
+      >
+        <a href="#">
+          <img src="assets/images/x.png" alt="" class="w-[5vw]" />
+        </a>
+        <a href="#">
+          <img src="assets/images/t.png" alt="" class="w-[5vw]" />
+        </a>
+      </div>
+      <a
+        href="#"
+        class="absolute md:right-[20vw] md:bottom-[8vw] bottom-[185vw] right-[58vw]"
+      >
+        <img
+          src="assets/images/tele-2.png"
+          alt=""
+          class="md:w-[13vw] w-[25vw] wow animate__animated animate__bounceIn"
+        />
+      </a>
+    </div> 
+
+
+    <script>
+      wow = new WOW({
+        boxClass: "wow",
+        animateClass: "animated",
+        offset: 0,
+        mobile: true,
+        live: true,
+      })
+      wow.init()
+    </script>
+
+    <!-- aos -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000,
+      })
+    </script>
+    <script defer type="text/javascript">
+      $("[data-aos]").parent().addClass("delete_extra_space")
+    </script>
+    <script defer src="/assets/js/main.js"></script>
+    <script>
+      wow = new WOW(
+                   {
+                   boxClass:     'wow',      
+                   animateClass: 'animated', 
+                   offset:       0,          
+                   mobile:       true,       
+                   live:         true        
+                 }
+                 )
+                 wow.init();
+    </script>
+  </body>
+</html>
